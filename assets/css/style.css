@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;500;700display=swap");
+
+/* Typography Setup  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 18px;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1050px;
+  margin: auto;
+}
+
+/* header section  start*/
+.header-section {
+  background-color: #864f9c;
+}
+.header-section .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-section .nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.header-section .nav-menu ul li {
+  display: inline-block;
+}
+.header-section .nav-menu ul li a {
+  display: inline-block;
+  padding: 25px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.header-section .nav-menu ul li a:hover {
+  background-color: #633a79;
+}
+/* header section end  */
+/* hero section start  */
+.hero-section {
+  background-color: #864f9c;
+  padding: 150px 0;
+}
+.hero-section .hero-content {
+  text-align: center;
+}
+.hero-section .hero-content h1 {
+  color: #fff;
+}
+.hero-section .hero-content a {
+  background-color: #eb7d4b;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 60px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+/* hero section end  */
+/* service section start  */
+.service-section {
+  background-color: #16c2a3;
+  padding: 100px 0;
+}
+.service-section .title-area {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+.service-section .title-area h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.service-section .title-area hr {
+  width: 70px;
+  margin: 10px auto;
+  border: 0;
+  border-bottom: 4px solid #13a58b;
+}
+.service-section .title-area p {
+  color: #fff;
+  margin-top: 25px;
+}
+.service-section .service-content {
+  margin-top: 60px;
+}
+.service-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-section .row .col {
+  width: 25%;
+  padding: 0 15px;
+}
+.service-section .column-content {
+  text-align: center;
+}
+.service-section .column-content .figure-img img {
+  width: 120px;
+  height: 124px;
+}
+.service-section .column-content h4 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.service-section .column-content p {
+  color: #fff;
+  margin-top: 10px;
+}
+/* service section end  */
+/* team section start  */
+.team-section {
+  background-color: #e7f1f8;
+  padding: 100px 0;
+}
+.team-section .title-area {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+.team-section .title-area h2 {
+  color: #000;
+  text-transform: uppercase;
+}
+.team-section .title-area hr {
+  width: 70px;
+  margin: 10px auto;
+  border: 0;
+  border-bottom: 4px solid #c8d9e5;
+}
+.team-section .title-area p {
+  color: #000;
+  margin-top: 25px;
+}
+.team-section .team-members {
+  margin-top: 60px;
+}
+.team-section .team-members .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-section .col {
+  width: 25%;
+  padding: 0 15px;
+}
+.team-section .team-content {
+  text-align: center;
+}
+.team-section .team-content img {
+  width: 170px;
+}
+.team-section .team-content h5 {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.team-section .team-content .members-info span {
+  color: #30bae7;
+  margin-top: 5px;
+  display: inline-block;
+}
+.team-section .team-content .members-text {
+  margin-top: 18px;
+}
+.team-section .team-content .members-social {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.team-section .team-content .members-social a i {
+  width: 30px;
+  height: 30px;
+  background-color: #bdd1df;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.team-section .team-content .members-social a:hover i {
+  background-color: #a4b3be;
+}
+/* team section end  */
